@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style/styel.css">
+    <link rel="shortcut icon" type="image-x/png" href="images/relogio.ico">
+    <meta name="description" content="crônometro online">
+    <meta name="keywords" content="crônometro, online">
+    <script src="JS/script.js" defer></script>
+    <meta name="author" content="Sean Taron"> 
+    <title>cronômetro</title>
+</head>
+<body>
+    <header> <!--Header-->
+        <div class="center">
+            <img src="images/relogio.png">
+            <h2>Crônometro online</h2>
+        </div>
+    </header>
+    <main> <!--conteúdo-->
+        <div class="center">
+            <section class="timer">
+                <div class="wraper">
+                    <h3>Horas</h3>
+                    <h2 id="b3">00</h2>
+                </div>
+                <h2>:</h2>
+                <div class="wraper">
+                    <h3>Minutos</h3>
+                    <h2 id="b2">00</h2>
+                </div>
+                <h2>:</h2>
+                <div class="wraper">
+                    <h3>Segundos</h3>
+                    <h2 id="b1">00</h2>
+                </div>    
+            </section>
+            <section class="buttons">
+                <button type="button" onclick="start()">Iniciar</button>
+                <button type="button" onclick="pause()">Parar</button>
+                <button type="button" onclick="back()">Voltar</button>
+                <button type="submit" onclick="clear_()">Limpar</button>
+            </section>
+        </div>
+
+        <div class="tarefa">
+            <h3 id="text"></h3>
+        </div>
+
+        <div class="return">
+            <h3>O cronômetro foi zerado!</h3>
+        </div>
+        <div class="finish">
+            <h3>O cronômetro atingiu o período de 24 horas retorne ou o zere!</h3>
+        </div>
+
+    </main>
+    <footer>
+        <div class="center">
+            <img src="images/relogio.png">
+            <h3>Crônometro online</h3>
+        </div>
+    </footer>
+</body>
+</html>
+
