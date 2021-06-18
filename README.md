@@ -1,4 +1,4 @@
-# cronometro
+# Cronometro
 Projeto de um cronômetro feito com muito Javascript para dar aquela upada nas habilidades adquiridas no JS.
 Neste projeto básico de um cronômetro online, usei bastante Javascript para desenvolve-lo.
 <h3>Imagens do projeto:</h3>
